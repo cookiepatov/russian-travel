@@ -1,9 +1,8 @@
 .lead__subtitle {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  line-height: 120%;
+  line-height: 1.2;
   text-align: center;
   width: 640px;
   color: white;
@@ -28,6 +27,6 @@
     margin-bottom: 40px;
     font-size: 5vw;
     width: 90%;
-    line-height: 125%;
+    line-height: 1.25;
   }
 }

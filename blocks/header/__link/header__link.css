@@ -1,11 +1,10 @@
 .header__link {
   text-decoration: none;
   color: white;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 117%;
+  line-height: 1.17;
   text-align: right;
   margin-left: 18px;
   transition: opacity 0.2s ease-in;
@@ -25,7 +24,7 @@
 {
   .header__link{
     font-size: 18px;
-    line-height: 111%;
+    line-height: 1.11;
     text-align: right;
 
   }

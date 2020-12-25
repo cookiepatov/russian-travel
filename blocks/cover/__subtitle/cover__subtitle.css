@@ -1,9 +1,8 @@
 .cover__subtitle {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 1.22;
   text-align: center;
   color: white;
   width: 360px;
@@ -18,7 +17,7 @@
   .cover__subtitle {
     width: 288px;
     font-size: 14px;
-    line-height: 114%;
+    line-height: 1.14;
   }
 }
 
@@ -28,6 +27,5 @@
   .cover__subtitle {
     width: 90%;
     font-size: 4.375vw;
-    line-height: 114%;
   }
 }

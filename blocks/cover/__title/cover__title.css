@@ -1,9 +1,8 @@
 .cover__title {
-  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 106%;
+  line-height: 1.06;
   text-align: center;
   color: white;
   width: 560px;
@@ -16,17 +15,20 @@
 @media screen and (max-width: 767px)
 {
   .cover__title {
-    width: 288px;
+    width: 240px;
     font-size: 32px;
-    line-height: 109%;
+    line-height: 1.09;
   }
 }
 
 @media screen and (max-width: 320px)
 {
   .cover__title {
-    width: 90%;
+    width: 75%;
+    /*Тут получается 240px вместо 288 как в макете, по той причине,
+    что иначе слово "на" остаётся на первой строке. Использовать <br> запрещено в чеклисте,
+    а оформлять эту надпись двумя отдельными <p> - семантически странно.
+    Поэтому ничего лучше не придумал. Так или иначе, визуальных отличий от брифа в итоге - нет.*/
     font-size: 10vw;
-    line-height: 109%;
   }
 }

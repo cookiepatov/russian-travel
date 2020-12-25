@@ -1,0 +1,8 @@
+.cover__overlay {
+  z-index: 1;
+  grid-row: 1/1;
+  grid-column: 1/1;
+  background-color: black;
+  opacity: 0.3;
+  transition: opacity 0.2s ease-in;
+}

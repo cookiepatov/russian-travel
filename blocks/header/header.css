@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  padding-top: 28px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+
+
+
+
+
+/* ADAPTIVE TODO!! */
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px)
+{
+  .header{
+    height: 42px;
+    padding-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

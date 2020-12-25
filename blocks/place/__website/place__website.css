@@ -1,0 +1,19 @@
+.place__website {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #AAAAAA;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px)
+{
+  .place__website {
+    display: none;
+  }
+}

@@ -1,0 +1,6 @@
+.header__lang-container {
+  list-style: none;
+  display: flex;
+  height: 28px;
+  padding: 0;
+}

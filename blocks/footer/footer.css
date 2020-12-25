@@ -9,19 +9,19 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
   .footer {
     padding-top: 88px;
   }
 }
 
-@media screen and (max-width:742px) {
+@media screen and (max-width:767px) {
   .footer {
     padding-top: 32px;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 425px) {
   .footer {
     flex-direction: column;
   }

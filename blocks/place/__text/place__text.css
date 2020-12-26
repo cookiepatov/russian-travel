@@ -1,5 +1,4 @@
-@media screen and (max-width: 767px)
-{
+@media screen and (max-width: 767px) {
   .place__text {
     margin-left: 16px;
     margin-right: 16px;

@@ -1,21 +1,21 @@
 .place__paragraph {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.63;
   color: white;
   width: 100%;
   margin: 0;
+
 }
 
-.place__paragraph:nth-of-type(2) {
+.place__paragraph:not(:first-child) {
   margin-top: 26px;
 }
 
-
-@media screen and (max-width: 928px)
-{
+@media screen and (max-width: 928px) {
   .place__paragraph:nth-of-type(2) {
     margin-top: 25px;
+    font-size: 16px;
   }
 }

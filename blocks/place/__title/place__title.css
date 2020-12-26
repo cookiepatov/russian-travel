@@ -8,14 +8,12 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1279px)
-{
+@media screen and (max-width: 1279px) {
   .place__title {
     width: 440px;
   }
 }
-@media screen and (max-width: 928px)
-{
+@media screen and (max-width: 928px) {
   .place__title {
     width: 340px;
     font-size: 42px;
@@ -23,17 +21,15 @@
   }
 }
 
-@media screen and (max-width: 767px)
-{
+@media screen and (max-width: 767px) {
   .place__title {
     margin-left: auto;
     margin-right: auto;
 
   }
-
 }
-@media screen and (max-width: 425px)
-{
+
+@media screen and (max-width: 425px) {
   .place__title {
     margin-left: 16px;
     margin-right: 16px;

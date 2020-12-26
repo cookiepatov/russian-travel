@@ -6,8 +6,6 @@
   min-height: 740px;
 }
 
-
-
 .cover__link::after {
     content:"";
     grid-row: 1/1;
@@ -16,8 +14,8 @@
     background-color: #2A2C2F;
     opacity: 0.3;
     transition: opacity 0.2s ease-in;
-
 }
+
 .cover__link:hover::after {
   opacity: 0.8;
 }
@@ -27,7 +25,6 @@
     min-height: calc(65.5vw);
   }
 }
-
 
 @media screen and (max-width: 1023px) {
   .cover__link {

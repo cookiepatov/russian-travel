@@ -1,0 +1,16 @@
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 92px;
+  background-image: url(../../../images/to-baikal-pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1183px) {
+  .cover {
+    min-height: calc(65.5vw);
+  }
+}
